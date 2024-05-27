@@ -1,0 +1,15 @@
+{
+  "name": "theointech-cohort-0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ArweavePH/theointech-cohort-0.git",
+  "author": "Theo in Tech <theoroque95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ardrive/turbo-sdk": "^1.9.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "typescript": "^5.4.5"
+  }
+}
