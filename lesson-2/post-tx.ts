@@ -35,7 +35,8 @@ import fs from "fs";
   const signedDataItem = createData(
     // The data to be signed is a JSON string
     JSON.stringify({
-      topic: "Lesson 2: Deep Dive into the Arweave Cookbook - Core Concepts",
+      title: "Lesson 2: Deep Dive into the Arweave Cookbook - Core Concepts",
+      content: "This lesson covers the core concepts of the Arweave Cookbook.",
     }),
     // The signer to be used to sign the data
     signer,
@@ -44,10 +45,14 @@ import fs from "fs";
         { name: "Content-Type", value: "application/json" },
         { name: "App-Name", value: "ArweavePH-Cohort-0" },
         { name: "App-Version", value: "0.1.0" },
-        { name: "Lesson", value: "2" },
         {
-          name: "Topic",
-          value: "Deep Dive into the Arweave Cookbook - Core Concepts",
+          name: "Title",
+          value:
+            "Lesson 2: Deep Dive into the Arweave Cookbook - Core Concepts",
+        },
+        {
+          name: "Author",
+          value: "Y5uoswBP4BBJH_sfRTE9Z4AjnoIh6ZH62HGOhFUU9Zo",
         },
       ],
     }

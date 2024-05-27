@@ -6,7 +6,9 @@
   "author": "Theo in Tech <theoroque95@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@ardrive/turbo-sdk": "^1.9.0"
+    "@ardrive/turbo-sdk": "^1.9.0",
+    "@irys/query": "^0.0.8",
+    "arweave": "^1.15.1"
   },
   "devDependencies": {
     "dotenv": "^16.4.5",
