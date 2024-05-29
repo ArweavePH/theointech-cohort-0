@@ -23,5 +23,5 @@ import Query from "@irys/query";
     ])
     .first();
 
-  console.log("results ==>", results.id);
+  console.log("results ==>", results);
 })();
