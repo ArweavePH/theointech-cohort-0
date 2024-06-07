@@ -11,6 +11,7 @@
     "arweave": "^1.15.1"
   },
   "devDependencies": {
+    "@permaweb/aoconnect": "^0.0.55",
     "dotenv": "^16.4.5",
     "typescript": "^5.4.5"
   }
