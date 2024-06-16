@@ -187,14 +187,6 @@ Handlers.add(
     end
 )
 
---[[
-    1. RPS = "M568XMXSDeMhLHZX3kmO4ih3ZevzHrzPLb8BvgUkK_4"
-    2. Send({ Target = RPS, Action = "Register" })
-    3. Wait for the game to start once we have enough players (at least 4); the game will divide the players into 2 teams
-    4. Once the game starts, you should make a move: Send({ Target = RPS, Action = "Move", Move = "<YourMove>" })
-    5. Wait for the game to end and see if you won or lost
---]]
-
 -- Registers new players for the next game and subscribes them for event info.
 Handlers.add(
     "Register",
