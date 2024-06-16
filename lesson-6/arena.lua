@@ -68,7 +68,7 @@ function announce(event, description)
         })
     end
     return print(Colors.gray ..
-        "Announcement: " .. Colors.red .. event .. " " .. Colors.blue .. description .. Colors.reset)
+    "Announcement: " .. Colors.red .. event .. " " .. Colors.blue .. description .. Colors.reset)
 end
 
 -- Sends a reward to a player.
